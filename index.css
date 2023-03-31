@@ -66,3 +66,26 @@ button:hover{
 }
 
 
+@media only screen and (max-width:600px) {
+
+
+    .square{
+        height: 120px;
+        width: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 80px;
+        border-right: 2px solid;
+        border-bottom: 2px solid;
+        color: #ccd6f6;
+    }
+    
+
+    #playerText{
+        padding: 0.5rem;
+        font-size:3rem;
+        color: #ccd6f6;
+    
+    }
+}
