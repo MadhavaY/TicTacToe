@@ -69,13 +69,17 @@ button:hover{
 @media only screen and (max-width:600px) {
 
 
+    .Board-container{
+      width: 400px;
+    }
+
     .square{
-        height: 120px;
-        width: 120px;
+        height: 115px;
+        width: 113px;
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 80px;
+        font-size: 40px;
         border-right: 2px solid;
         border-bottom: 2px solid;
         color: #ccd6f6;
@@ -86,6 +90,8 @@ button:hover{
         padding: 0.5rem;
         font-size:3rem;
         color: #ccd6f6;
-    
+        display: flex;
+        margin: auto;
+        margin-top: 1rem;
     }
 }
